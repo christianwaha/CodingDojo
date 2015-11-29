@@ -1,0 +1,5 @@
+C:\Users\NEW-ORLEANS\Source\Repos\Test CI CD Munich\UnitTestProject1\Numbers\bin\Debug\Numbers.dll
+C:\Users\NEW-ORLEANS\Source\Repos\Test CI CD Munich\UnitTestProject1\Numbers\bin\Debug\Numbers.pdb
+C:\Users\NEW-ORLEANS\Source\Repos\Test CI CD Munich\UnitTestProject1\Numbers\obj\Debug\Numbers.csprojResolveAssemblyReference.cache
+C:\Users\NEW-ORLEANS\Source\Repos\Test CI CD Munich\UnitTestProject1\Numbers\obj\Debug\Numbers.dll
+C:\Users\NEW-ORLEANS\Source\Repos\Test CI CD Munich\UnitTestProject1\Numbers\obj\Debug\Numbers.pdb

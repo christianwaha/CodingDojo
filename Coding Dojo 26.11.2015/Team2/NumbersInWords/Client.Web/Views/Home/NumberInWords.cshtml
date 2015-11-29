@@ -1,0 +1,26 @@
+﻿@model int
+
+@{
+    ViewBag.Title = "Numbers in Words";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    AjaxOptions ajaxSettings = new AjaxOptions()
+    {
+        UpdateTargetId = "numberDisplay",
+        Url = Url.Action("GetNumberInWords"),
+    };
+}
+
+<div id="numberDisplay" class="text-primary">
+    @Html.Action("GetNumberInWords", new { value = Model })
+</div>
+
+@using (Ajax.BeginForm("NumberInWords", ajaxSettings))
+{
+    <div class="form-inline">
+        @Html.TextBox("value", Model, new { @class = "form-control" })
+
+        <button class="btn btn-primary" type="submit">Convert</button>
+    </div>
+}
+

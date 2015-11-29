@@ -1,0 +1,22 @@
+﻿<Window x:Class="Client.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Number in Words" Width="525" SizeToContent="Height">
+    
+    <StackPanel Margin="12">
+        <TextBlock x:Name="txb_Output" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold"
+                   TextWrapping="Wrap"></TextBlock>
+
+        <Grid HorizontalAlignment="Center" Margin="0 24 0 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="txb_Input" Text="1337" HorizontalContentAlignment="Center"></TextBox>
+
+            <Button x:Name="btn_Convert" Grid.Column="1" Margin="6 0 0 0" Padding="12 0"
+                    Click="handleEvent_Button_Convert_Click">Convert</Button>
+        </Grid>
+    </StackPanel>
+</Window>
